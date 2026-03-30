@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bullet - Profesyonel Tel Kurşun ve Pellet Çözümleri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="My Bullet Logo" class="main-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <span class="logo-text" style="display:none;">MY BULLET</span>
+        </div>
+        <nav>
+            <a href="#home">Ana Sayfa</a>
+            <a href="#about">Hakkımızda</a>
+            <a href="#products">Ürünlerimiz</a>
+            <a href="#contact">İletişim</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="glow-text">Kalitede Tam <span class="green-highlight">İsabet</span></h1>
+                <p>Profesyonellerin tercihi yüksek kaliteli kurşun tel ve havalı tüfek saçmaları. Üstün balistik performans ve mükemmel aerodinamik tasarım.</p>
+                <a href="#products" class="cta-btn">Ürünlerimizi İnceleyin</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Hakkımızda</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>Mükemmeliyet Yolculuğu</h3>
+                        <p>"My Bullet" olarak, atıcılık ve endüstriyel kullanım için en saf, en dengeli ve en hassas tel kurşun ürünlerini üretmeye kendimizi adadık. Yılların verdiği tecrübeyi modern teknolojiyle birleştirerek, her bir pellet ve kurşun telde mikron hassasiyetinde kalite standardı sunuyoruz. Hedefimiz, markamızı kalitenin ve güvenin simgesi haline getirmektir.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card"><h3>%100</h3><p>Saf Kurşun</p></div>
+                        <div class="stat-card"><h3>Mikron</h3><p>Hassasiyet</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="container">
+                <h2>Ürünlerimiz</h2>
+                <p class="section-subtitle">Farklı çap, ağırlık ve formlardaki profesyonel çözümlerimiz.</p>
+                
+                <div class="product-grid">
+                    <div class="product-card" data-product-id="pellet-match">
+                        <img src="Magnum.jpeg" alt="5.5mm Hassas Pellet" class="product-img">
+                        <h3>5.5mm Magnum Slug Pellet</h3>
+                        <p>Yüksek tahribat ve uzun menzil için özel tasarım.</p>
+                        <div class="card-buttons">
+                            <button class="details-btn">Detaylar</button>
+                            <a href="#" class="whatsapp-btn bilgi-al-btn" data-product-name="5.5mm Magnum Slug Pellet">Bilgi Al</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product-id="tel-kursun">
+                        <img src="kutu.jpeg" alt="Tel Kurşun Bobin" class="product-img">
+                        <h3>Endüstriyel Tel Kurşun (Bobin)</h3>
+                        <p>2mm - 10mm arası özel çaplarda üretim.</p>
+                        <div class="card-buttons">
+                            <button class="details-btn">Detaylar</button>
+                            <a href="#" class="whatsapp-btn bilgi-al-btn" data-product-name="Endüstriyel Tel Kurşun (Bobin)">Bilgi Al</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product-id="pellet-special">
+                        <img src="sacma-dvg.jpeg" alt="4.5mm Özel Pellet" class="product-img">
+                        <h3>4.5mm Hollow Point Özel Seri</h3>
+                        <p>Hassas atıcılık ve müsabakalar için dengeli form.</p>
+                        <div class="card-buttons">
+                            <button class="details-btn">Detaylar</button>
+                            <a href="#" class="whatsapp-btn bilgi-al-btn" data-product-name="4.5mm Hollow Point Özel Seri">Bilgi Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>İletişim</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Bize Ulaşın</h3>
+                        <p>📞 Telefon: +90 533 664 7947</p>
+                        <p>📧 E-Posta: gunduzfirat81@gmail.com</p>
+                        <p>📍 Adres: Organize Sanayi Bölgesi, Türkiye</p>
+                    </div>
+                    <div class="contact-map">
+                        <div class="map-placeholder">Harita Konumu</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MY BULLET. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <a href="#" class="floating-whatsapp" id="floating-wa-link" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-grid">
+                <div class="modal-gallery">
+                    <img src="" alt="Ürün Ana Resim" id="modal-main-img">
+                    <div class="modal-thumbnails" id="modal-thumbnails">
+                        </div>
+                </div>
+                <div class="modal-details">
+                    <h2 id="modal-title">Ürün Başlığı</h2>
+                    <p id="modal-description">Ürün detaylı açıklaması...</p>
+                    <ul id="modal-specs">
+                        </ul>
+                    <a href="#" class="whatsapp-btn modal-wa-btn" id="modal-wa-link">Whatsapp'tan Bilgi Al</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
